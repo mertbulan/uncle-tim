@@ -15,8 +15,6 @@ jobs:
           cache: "npm"
       - name: Install requirements
         run: npm install
-      - name: Build
-        run: npm run build
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
