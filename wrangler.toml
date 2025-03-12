@@ -1,0 +1,14 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "ping-me"
+main = "src/index.ts"
+compatibility_date = "2024-12-05"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+CLOUDKIT_KEY_ID = ""
+CLOUDKIT_PRIVATE_KEY = ""
+CLOUDKIT_CONTAINER = "iCloud.com.mertbulan.UncleTim"
+CLOUDKIT_ENVIRONMENT = "development"
+
+[observability.logs]
+enabled = true
